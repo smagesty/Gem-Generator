@@ -1,0 +1,38 @@
+/* borders */
+div{
+	background-color: rgb(190, 186, 164);
+	margin: 10px;
+	width: 25%
+}
+div{
+	border: solid 20px rgb(221, 218, 213);
+	padding: 40px;
+}
+/* headers format */
+h1, h2, h3, span{
+	font-weight: bold;
+	text-align: center;
+}
+h1{
+	font-size: 30pt;
+}
+/* gems */
+#gem1, #gem2, #gem3, #gem4{
+	clear: both;
+}
+#gem1, #gem2, #gem3, #gem4{
+    margin: 10px;
+}  
+/* buttons */
+#gem4{
+	color: #3092c7;
+}
+#gem2{
+	color: #00aa59;
+}
+#gem1{
+	color: purple;
+}
+#gem3{
+	color: pink;
+}
