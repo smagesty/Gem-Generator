@@ -1,36 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Crystal Collector Game</title>
     <!-- simple background change -->
-    <body style = "background: url(https://cdn.pixabay.com/photo/2017/08/12/10/13/background-2633962__340.jpg)"></body>
+
+<body style="background: url(https://cdn.pixabay.com/photo/2017/08/12/10/13/background-2633962__340.jpg)"></body>
 </head>
-               <!-- link to css, jQuery, js -->
-       <link rel="stylesheet" href="assets/css/style.css">
-       <script src="https://code.jquery.com/jquery.js"></script>
-       <script src="assets/javascript/game.js"></script>
-    <div id="header">
-        <h1>Crystal's Collector Game!</h1>
+<!-- link to css, jQuery, js -->
+<link rel="stylesheet" href="assets/css/style.css">
+<!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+<script src="assets/javascript/game.js"></script>
+<div id="header">
+    <h1>Crystal's Collector Game!</h1>
 
-    </div>
+</div>
 
-    <div id="instructions">
-        <h2>Instructions</h2>
-        <p>There will be four crystals displayed as buttons on the page. </p>
-        <p>The player will be shown a random number at the start of the game.</p>
-        <p>When the player clicks on a crystal, it will add a specific amount of points to the player's total score.</p>
-        <p>The player wins if their total score matches the random number from the beginning of the game.</p>
-        <p>The player loses if their score goes above the random number.</p>
-        <p>The game restarts whenever the player wins or loses.</p>
-    </div>
-    
+<div id="instructions">
+    <h2>Instructions</h2>
+    <p>There will be four crystals displayed as buttons on the page. </p>
+    <p>The player will be shown a random number at the start of the game.</p>
+    <p>When the player clicks on a crystal, it will add a specific amount of points to the player's total score.</p>
+    <p>The player wins if their total score matches the random number from the beginning of the game.</p>
+    <p>The player loses if their score goes above the random number.</p>
+    <p>The game restarts whenever the player wins or loses.</p>
+</div>
 
-    <div>
-        <h3 id="scoreToMatch">
+
+<!-- <div>
+        <h3 id="goal">
             <strong>Your goal to win:</strong>
         </h3>
-        <p id="wins">Wins: 0</p>
+        <p id="wins"> Wins: 0</p>
         <p id="losses">Losses: 0</p>
     </div>
     
@@ -38,11 +42,36 @@
             <h3 id="score">
                     Your Current Score: 0
                 </h3>
-        <button><img id="gem1" src="" alt="purple"></button>
-        <button><img id="gem2" src="" alt="green"></button>
-        <button><img id="gem3" src="" alt="pink"></button>
-        <button><img id="gem4" src="" alt="blue"></button>
+            </div> -->
 
-    </div>
+
+<div class="box3">
+    <h3 id="goal">Goal:</h3>
+    <h3 id="score">Your Score:</h3>
+    <br>
+    <br>
+    <h3 id="wins">Wins:</h3>
+    <h3 id="losses">Losses:</h3>
+</div>
+
+<div class="box1">
+    <button class="button" id="buttonone"><img src="./assets/images/PurpCrystal.png" alt="purple"></button>
+    <button class="button" id="buttontwo"><img src="./assets/images/GreenCrystal.png" alt="green"></button>
+    <button class="button" id="buttonthree"><img src="./assets/images/RedCrystal.png" alt="red"></button>
+    <button class="button" id="buttonfour"><img src="./assets/images/BlueCrystal.png" alt="blue"></button>
+
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>

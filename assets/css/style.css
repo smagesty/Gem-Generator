@@ -36,3 +36,9 @@ h1{
 #gem3{
 	color: pink;
 }
+.box1 {
+    padding: 35px;
+    position: relative;
+    background: rgb(190, 186, 164);
+    margin-bottom: 20px;
+  }
